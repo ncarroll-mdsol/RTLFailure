@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		523A916F1B9A24AC0038885C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 523A916E1B9A24AC0038885C /* main.m */; };
+		523A91721B9A24AC0038885C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523A91711B9A24AC0038885C /* AppDelegate.m */; };
+		523A91751B9A24AC0038885C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523A91741B9A24AC0038885C /* ViewController.m */; };
+		523A91781B9A24AC0038885C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523A91761B9A24AC0038885C /* Main.storyboard */; };
+		523A917A1B9A24AC0038885C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523A91791B9A24AC0038885C /* Images.xcassets */; };
+		523A917D1B9A24AC0038885C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 523A917B1B9A24AC0038885C /* LaunchScreen.xib */; };
+		523A91891B9A24AC0038885C /* RTLFailureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 523A91881B9A24AC0038885C /* RTLFailureTests.m */; };
+		523A91951B9A24D50038885C /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523A91931B9A24D50038885C /* ExampleViewController.m */; };
+		523A91961B9A24D50038885C /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 523A91941B9A24D50038885C /* ExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		523A91831B9A24AC0038885C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 523A91611B9A24AC0038885C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 523A91681B9A24AC0038885C;
+			remoteInfo = RTLFailure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		523A91691B9A24AC0038885C /* RTLFailure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTLFailure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		523A916D1B9A24AC0038885C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523A916E1B9A24AC0038885C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		523A91701B9A24AC0038885C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		523A91711B9A24AC0038885C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		523A91731B9A24AC0038885C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		523A91741B9A24AC0038885C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		523A91771B9A24AC0038885C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		523A91791B9A24AC0038885C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		523A917C1B9A24AC0038885C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		523A91821B9A24AC0038885C /* RTLFailureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTLFailureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		523A91871B9A24AC0038885C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523A91881B9A24AC0038885C /* RTLFailureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTLFailureTests.m; sourceTree = "<group>"; };
+		523A91921B9A24D50038885C /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		523A91931B9A24D50038885C /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		523A91941B9A24D50038885C /* ExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleViewController.xib; sourceTree = "<group>"; };
+		523A91971B9A28F40038885C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		523A91981B9A28F40038885C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		523A91661B9A24AC0038885C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523A917F1B9A24AC0038885C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		523A91601B9A24AC0038885C = {
+			isa = PBXGroup;
+			children = (
+				523A916B1B9A24AC0038885C /* RTLFailure */,
+				523A91851B9A24AC0038885C /* RTLFailureTests */,
+				523A916A1B9A24AC0038885C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		523A916A1B9A24AC0038885C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				523A91691B9A24AC0038885C /* RTLFailure.app */,
+				523A91821B9A24AC0038885C /* RTLFailureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		523A916B1B9A24AC0038885C /* RTLFailure */ = {
+			isa = PBXGroup;
+			children = (
+				523A91701B9A24AC0038885C /* AppDelegate.h */,
+				523A91711B9A24AC0038885C /* AppDelegate.m */,
+				523A91731B9A24AC0038885C /* ViewController.h */,
+				523A91741B9A24AC0038885C /* ViewController.m */,
+				523A91761B9A24AC0038885C /* Main.storyboard */,
+				523A91791B9A24AC0038885C /* Images.xcassets */,
+				523A917B1B9A24AC0038885C /* LaunchScreen.xib */,
+				523A916C1B9A24AC0038885C /* Supporting Files */,
+				523A91921B9A24D50038885C /* ExampleViewController.h */,
+				523A91931B9A24D50038885C /* ExampleViewController.m */,
+				523A91941B9A24D50038885C /* ExampleViewController.xib */,
+			);
+			path = RTLFailure;
+			sourceTree = "<group>";
+		};
+		523A916C1B9A24AC0038885C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				523A916D1B9A24AC0038885C /* Info.plist */,
+				523A916E1B9A24AC0038885C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		523A91851B9A24AC0038885C /* RTLFailureTests */ = {
+			isa = PBXGroup;
+			children = (
+				523A91881B9A24AC0038885C /* RTLFailureTests.m */,
+				523A91861B9A24AC0038885C /* Supporting Files */,
+			);
+			path = RTLFailureTests;
+			sourceTree = "<group>";
+		};
+		523A91861B9A24AC0038885C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				523A91871B9A24AC0038885C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		523A91681B9A24AC0038885C /* RTLFailure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523A918C1B9A24AC0038885C /* Build configuration list for PBXNativeTarget "RTLFailure" */;
+			buildPhases = (
+				523A91651B9A24AC0038885C /* Sources */,
+				523A91661B9A24AC0038885C /* Frameworks */,
+				523A91671B9A24AC0038885C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTLFailure;
+			productName = RTLFailure;
+			productReference = 523A91691B9A24AC0038885C /* RTLFailure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		523A91811B9A24AC0038885C /* RTLFailureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523A918F1B9A24AC0038885C /* Build configuration list for PBXNativeTarget "RTLFailureTests" */;
+			buildPhases = (
+				523A917E1B9A24AC0038885C /* Sources */,
+				523A917F1B9A24AC0038885C /* Frameworks */,
+				523A91801B9A24AC0038885C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				523A91841B9A24AC0038885C /* PBXTargetDependency */,
+			);
+			name = RTLFailureTests;
+			productName = RTLFailureTests;
+			productReference = 523A91821B9A24AC0038885C /* RTLFailureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		523A91611B9A24AC0038885C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Medidata Solutions";
+				TargetAttributes = {
+					523A91681B9A24AC0038885C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					523A91811B9A24AC0038885C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 523A91681B9A24AC0038885C;
+					};
+				};
+			};
+			buildConfigurationList = 523A91641B9A24AC0038885C /* Build configuration list for PBXProject "RTLFailure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 523A91601B9A24AC0038885C;
+			productRefGroup = 523A916A1B9A24AC0038885C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				523A91681B9A24AC0038885C /* RTLFailure */,
+				523A91811B9A24AC0038885C /* RTLFailureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		523A91671B9A24AC0038885C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523A91781B9A24AC0038885C /* Main.storyboard in Resources */,
+				523A91961B9A24D50038885C /* ExampleViewController.xib in Resources */,
+				523A917D1B9A24AC0038885C /* LaunchScreen.xib in Resources */,
+				523A917A1B9A24AC0038885C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523A91801B9A24AC0038885C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		523A91651B9A24AC0038885C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523A91751B9A24AC0038885C /* ViewController.m in Sources */,
+				523A91951B9A24D50038885C /* ExampleViewController.m in Sources */,
+				523A91721B9A24AC0038885C /* AppDelegate.m in Sources */,
+				523A916F1B9A24AC0038885C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523A917E1B9A24AC0038885C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523A91891B9A24AC0038885C /* RTLFailureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		523A91841B9A24AC0038885C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 523A91681B9A24AC0038885C /* RTLFailure */;
+			targetProxy = 523A91831B9A24AC0038885C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		523A91761B9A24AC0038885C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523A91771B9A24AC0038885C /* Base */,
+				523A91971B9A28F40038885C /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		523A917B1B9A24AC0038885C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523A917C1B9A24AC0038885C /* Base */,
+				523A91981B9A28F40038885C /* ar */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		523A918A1B9A24AC0038885C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		523A918B1B9A24AC0038885C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		523A918D1B9A24AC0038885C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RTLFailure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		523A918E1B9A24AC0038885C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RTLFailure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		523A91901B9A24AC0038885C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RTLFailureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTLFailure.app/RTLFailure";
+			};
+			name = Debug;
+		};
+		523A91911B9A24AC0038885C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RTLFailureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTLFailure.app/RTLFailure";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		523A91641B9A24AC0038885C /* Build configuration list for PBXProject "RTLFailure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523A918A1B9A24AC0038885C /* Debug */,
+				523A918B1B9A24AC0038885C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523A918C1B9A24AC0038885C /* Build configuration list for PBXNativeTarget "RTLFailure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523A918D1B9A24AC0038885C /* Debug */,
+				523A918E1B9A24AC0038885C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		523A918F1B9A24AC0038885C /* Build configuration list for PBXNativeTarget "RTLFailureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523A91901B9A24AC0038885C /* Debug */,
+				523A91911B9A24AC0038885C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 523A91611B9A24AC0038885C /* Project object */;
+}
