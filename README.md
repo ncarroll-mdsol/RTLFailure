@@ -2,4 +2,8 @@ Using Xcode 6, build this app onto an iOS 8 Device and an iOS 9 Device. Once run
 
 Observe that in iOS 8, the subviews are correctly respecting the RTL layout, and "LeftInArabic" properly displays on the left side.
 
+![iOS 8](https://github.com/ncarroll-mdsol/RTLFailure/raw/master/images/icon48.png)
+
 In iOS 9, the subviews are not respecting the RTL layout, and "LeftInEnglish" is on the left side despite the system language being set to Arabic.
+
+![alt text](https://github.com/ncarroll-mdsol/RTLFailure/raw/master/images/icon48.png)
