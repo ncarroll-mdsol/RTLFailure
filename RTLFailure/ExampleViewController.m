@@ -9,6 +9,7 @@
 #import "ExampleViewController.h"
 
 @interface ExampleViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *alignedLabel;
 
 @end
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.alignedLabel.textAlignment = NSTextAlignmentNatural;
 }
 
 - (void)didReceiveMemoryWarning {
